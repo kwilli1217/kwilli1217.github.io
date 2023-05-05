@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale-1,shrink-to-fit=no">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Donations</title>
+
+</head>
+
+<body>
+    <div class="pagecontainer">
+        
+        <header>
+            <h1><a href="index.html">NCGREEN Blog</a></h1>
+                
+            <!--navbar-->
+            <nav class="navbar">
+
+                <!--ul for navbar-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="donations.html">Donations</a></li>
+                </ul>
+                <!--end of navbar ul-->
+            </nav>
+        </header>
+ 
+        <div class="donationscontainer">
+            <!--heading and text-->
+            <div class="donationstext">
+                <h1 class="donationsheader">Donate to NCGreen</h1>
+        
+                <p class="donationsparagraph">Your donation to NCGreen helps fund community efforts to preserve our natural resoures.<br> 
+                To learn more, see our mission statement and member stories.
+                </p>
+            </div>
+
+
+            <!--sign up form-->
+            <div class="donationform">
+                <form id="donation" action="#" method="post">
+                    <h2>Donations</h2>
+
+                    <label for="donationamount">Select a Donation Amount</label><br><br>
+                    <input type="radio" id="$5" name="donationamount" value="$5">
+                    <label for="$5">$5</label><br>
+                    <input type="radio" id="$10" name="donationamount" value="$10">
+                    <label for="$10">$10</label><br>
+                    <input type="radio" id="$20" name="donationamount" value="$20">
+                    <label for="$20">$20</label><br>
+                    <input type="radio" id="$50" name="donationamount" value="$50">
+                    <label for="$50">$50</label><br><br>
+
+                    <p>Contact Information</p>
+
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="user_name" placeholder="First Name"><br>
+
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname" name="user_name" placeholder="Last Name"><br>
+
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="user_email" placeholder="email@domain.com" required><br>
+
+                    <label for="phone">Phone Number</label><br>
+                    <input type="text" id="phone" name="user_number"><br>
+
+                    <p>Payment Information</p>
+                    <label for="cardname">Name on Card</label><br>
+                    <input type="text" id="cardname" name="cardname" required><br>
+
+                    <label for="cardnumber">Card Number</label><br>
+                    <input type="text" id="cardnumber" name="cardnumber" required><br>
+
+                    <label for="expirationdate">Expiration Date</label><br>
+                    <input type="date" id="date" name="date" value="2023-01-01"><br>
+
+                    <label for="cvv">CVV</label><br>
+                    <input type="text" id="cvv" name="cvv" required><br>
+
+                    <button class="formbutton" type="submit">Donate</button>
+                </form>
+            </div>
+        </div>
+
+        <!--footer-->
+
+        <footer class="footer">
+            <div class="footertext">
+                <h2>Contact Us</h2>
+                <p>Email: esw@fakeemail.com</p>
+                <p>Phone Number: (123)456-7890</p>
+                <p>Address: 123 Fake Street, Fake City FS 00000</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
